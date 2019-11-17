@@ -23,5 +23,5 @@ function w3IncludeHTML(cb) {
 
 function makeBold(id) {
     var d = document.getElementById(id);
-    d.style.fontWeight = "bold;"
+    d.style.fontWeight = "bold";
 }
