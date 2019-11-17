@@ -1,0 +1,86 @@
+html {
+	background-color: white;
+	font-size: 14pt;
+	padding: 0pt 10pt 0pt 10pt;
+}
+
+body {
+	min-width: 20em;
+	max-width: 100%;
+	width: 40em;
+	margin: auto;
+}
+
+header nav {
+	margin: 0 0 auto;
+	float: center;
+	line-height: 22px;
+	border-bottom: thin solid #aaa;
+}
+
+header nav menu {
+	list-style: none;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+header nav menu li {
+	display: block;
+}
+
+header nav menu li a {
+	display: block;
+	float: left;
+	line-height: 3em;
+}
+
+header nav menu li a:hover {
+	color: red
+}
+
+.applogo {
+	text-align: center;
+}
+
+.applogo img {
+	width: 10em;
+	border-radius: 2em;
+	box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.4);
+}
+
+.applogo figcaption h1 {
+	margin-top: 0.2em;
+}
+
+.screenshot {
+	text-align: center;
+	font-size: smaller;
+}
+
+.screenshot img {
+	width: 20em;
+	border-radius: 0.5em;
+	box-shadow: 0 0.2em 0.4em 0 rgba(0, 0, 0, 0.4);
+}
+
+.selected {
+	font-weight: bold;
+}
+
+.gplay img {
+	width: 10em;
+}
+
+h1 {
+	text-align: center;
+}
+
+footer {
+	margin-top: 2em;
+	text-align: center;
+	font-size: smaller;
+}
