@@ -1,8 +1,11 @@
-function w3IncludeHTML(cb) {
+function w3IncludeHTML(boldId, cb) {
     var z, i, elmnt, file, xhttp;
     z = document.getElementsByTagName("*");
     for (i = 0; i < z.length; i++) {
         elmnt = z[i];
+        if (elmnt.id === boldId) {
+            elmnt.style.fontWeight = "bold";
+        }
         file = elmnt.getAttribute("w3-include-html");
         if (file) {
             xhttp = new XMLHttpRequest();
@@ -10,7 +13,7 @@ function w3IncludeHTML(cb) {
                 if (this.readyState == 4 && this.status == 200) {
                     elmnt.innerHTML = this.responseText;
                     elmnt.removeAttribute("w3-include-html");
-                    w3IncludeHTML(cb);
+                    w3IncludeHTML(boldId, cb);
                 }
             }
             xhttp.open("GET", file, true);
@@ -19,9 +22,4 @@ function w3IncludeHTML(cb) {
         }
     }
     if (cb) cb();
-}
-
-function makeBold(id) {
-    var d = document.getElementById(id);
-    d.style.fontWeight = "bold";
 }
