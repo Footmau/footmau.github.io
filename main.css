@@ -67,10 +67,6 @@ header nav menu li a:hover {
 	box-shadow: 0 0.2em 0.4em 0 rgba(0, 0, 0, 0.4);
 }
 
-.selected {
-	font-weight: bold;
-}
-
 .gplay img {
 	width: 10em;
 }

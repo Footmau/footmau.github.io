@@ -20,3 +20,8 @@ function w3IncludeHTML(cb) {
     }
     if (cb) cb();
 }
+
+function makeBold(id) {
+    var d = document.getElementById(id);
+    d.style.fontWeight = "bold;"
+}
