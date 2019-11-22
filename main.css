@@ -38,10 +38,12 @@ header nav menu li a {
 	line-height: 3em;
 }
 
-header nav menu li a img {
-	line-height: 3em;
-	display: block;
-	margin: auto;
+.navlogo {
+	background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-image: url("favicon-32.png");
+    background-position: center center;
+    width: 16px;
 }
 
 header nav menu li a:hover {
