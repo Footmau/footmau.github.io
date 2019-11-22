@@ -38,6 +38,11 @@ header nav menu li a {
 	line-height: 3em;
 }
 
+header nav menu li a img {
+	display: block;
+	margin: auto;
+}
+
 header nav menu li a:hover {
 	color: red
 }
