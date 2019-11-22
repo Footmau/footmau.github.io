@@ -14,7 +14,6 @@ body {
 header nav {
 	margin: 0 0 auto;
 	float: center;
-	line-height: 2em;
 	border-bottom: thin solid #aaa;
 }
 
@@ -35,7 +34,7 @@ header nav menu li {
 header nav menu li a {
 	display: block;
 	float: left;
-	line-height: 3em;
+	height: 3em;
 }
 
 header nav menu li a img {
