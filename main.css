@@ -61,10 +61,19 @@ header nav menu li a:hover {
 	font-size: smaller;
 }
 
+.screenshot_with_shadow {
+	text-align: center;
+	font-size: smaller;
+}
+
 .screenshot img {
 	width: 20em;
 	border-radius: 0.5em;
 	box-shadow: 0 0.2em 0.4em 0 rgba(0, 0, 0, 0.4);
+}
+
+.screenshot_with_shadow img {
+	width: 20em;
 }
 
 .gplay img {
